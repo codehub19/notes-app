@@ -11,7 +11,7 @@
 
 
     <div class="row">
-        <% if(notes.length > 0) {for(var i=0; i<notes.length; i++) { %>
+        <% if(notes.length > 0) {for(var i=notes.length-1; i>=0; i--) { %>
             <div class="col-sm-3 mb-4">
                 <div class="card border-primary" style="min-height: 210px;">
                     <a href="/dashboard/item/<%- notes[i]._id %>" class="card-body text-decoration-none">
