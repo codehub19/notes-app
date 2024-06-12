@@ -1,0 +1,4 @@
+<h2><%- noteView.title %></h2>
+<p><%- noteView.body %></p>
+<p><%- noteView.createdAt.toLocaleString() %></p>
+<a href="/dashboard/note/update/<%- noteView.id %>" class="btn btn-primary">Edit Note</a>
